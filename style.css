@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./IMAGE/gradienta-bKESVqfxass-unsplash.jpg");
+    
+}
+.calc{
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-gap: 15px;
+    /* height: 200px; */
+    /* box-shadow: ; */
+   
+}
+input{
+    border: none;
+    grid-column: span 4;
+    height: 50px;
+    width: 205px;
+    border: 1px solid black;
+    /* box-shadow: inset 1px 1px 5px 5px #feffdc; */
+    font-size: 30px;
+    color: black;
+    text-align: end;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: rgb(255, 255, 255);
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    border: none;
+    background-color: rgb(250, 233, 208);
+    font-weight: 30px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(187, 210, 224);
+}
+button:focus{
+    background-color: rgb(187, 210, 224);
+}
+.equal{
+    width: 99px;
+    border-radius: 10px;
+}
